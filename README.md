@@ -20,8 +20,10 @@ the key will no longer be available for Read or Delete operations.<br>
 unexpected ways or breaches any limits<br>
 8. The file size never exceeds 1GB<br>
 9. More than one client process cannot be allowed to use the same file as a data store at any given time.<br>
+
 10.A client process is allowed to access the data store using multiple threads, if it desires to.
 The data store must therefore be thread-safe<br>
+
 11.The client will bear as little memory costs as possible to use this data store, while deriving maximum performance with respect to response times for accessing the data store.<br>
 
 
